@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "DATABASE_URL": "mongodb+srv://todolist:todolist@todolist.limj5qr.mongodb.net/todolist?retryWrites=true&w=majority&appName=todolist"
+    },
+    "commands": ["npm install", "npx prisma generate", "npm run build"]
+  }
+}
+
